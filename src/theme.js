@@ -1,6 +1,14 @@
-export const theme = {
+export const default_theme = {
     primaryDark: '#000000',
     primaryLight: '#FFFFFF',
-    primaryHover: '#343078',
-    mobile: '576px',
+    primaryGreen: '#023139',
+    
+}
+
+export const normal_bar = {
+    burger_button_r: '81px'
+}
+
+export const toggle_bar = {
+    burger_button_r: '500px'
 }
