@@ -15,11 +15,12 @@ export const StyledCatalog = styled.div`
 
     img.weyland-logo {
         position: fixed;
-        top: 70px;
+        top: 50px;
         left: 88.29%;
         right: 4.32%;
         width: 6.71%;
         height: 11.98%;
+        z-index: 2;
     }
 
     div.link-group {
@@ -33,6 +34,7 @@ export const StyledCatalog = styled.div`
         font-size: 10px;
         text-align: right;
         border-right: 1.5px solid rgba(255, 255, 255);
+        z-index: 2;
     }
 
     div.link-group div {
@@ -130,6 +132,31 @@ export const StyledCaseless = styled.div`
     img.weapon {
         height: 186px;
         width:  683px;
+    }
+
+    div.description {
+        position: fixed;
+        top: 410px;
+        left: 350px;
+        height: 148px;
+        width: 592px;
+        text-align: left;
+        letter-spacing: 0.34px;
+        
+
+    }
+
+    div.weapon-title {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.42px;
+        color: #FFFFFF;
+    }
+
+    div.weapon-desc {
+        text-align: left;
+        letter-spacing: 0.34px;
+        color: #E9E9E9;
+        opacity: 0.8;
     }
 
 `
