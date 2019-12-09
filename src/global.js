@@ -11,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0px;
         min-height: 100%;
         background-color: #000000;
+        overflow: hidden;
     }
 
     `
