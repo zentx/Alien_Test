@@ -14,5 +14,9 @@ export const GlobalStyles = createGlobalStyle`
         overflow: hidden;
     }
 
+    .bm-menu-wrap {
+        z-index: 0!important;
+      }
+
     `
 

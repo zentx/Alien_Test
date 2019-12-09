@@ -37,17 +37,17 @@ export const StyledBackground = styled.div`
         letter-spacing: 0.1rem;
         font-size: 14px;
         text-align: right;
+        z-index: 1;
     }
 
     div.link-group div {
         padding: 4px 0;
     }
 
-    div.link-group a {
-        cursor: pointer;
+    div.link-group div a {
+        text-decoration: none;
     }
-
-
+    
     div.description {
         position: fixed;
         top: 520px;

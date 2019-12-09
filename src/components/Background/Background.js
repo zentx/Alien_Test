@@ -5,6 +5,7 @@ import play_logo from './../../assets/img/play-button.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { Spring } from 'react-spring/renderprops';
 
 class Background extends Component {
 
@@ -29,10 +30,16 @@ class Background extends Component {
                  su potencial como recurso militar parece ser ilimitado.</small>
             </div>
         </div>
-        <div className="link-group">
-           <div> <a><b>HOME</b></a> </div> 
-            <div> <a><b>WEAPON CATALOG</b></a> </div>
-        </div>
+        
+          <Spring from={{ left: 1090 }} to={{ left: this.props.openMenu ? 1470 : 1090 }}>
+          {props => (
+              <div style={props} className="link-group">
+                <div><a><b>HOME</b></a></div> 
+                <div onClick={ this.props.change }><a href="#"><b>WEAPON CATALOG</b></a> </div>
+              </div>
+           )} 
+          </Spring>
+
         <div className="social-net">
             <FontAwesomeIcon className="fontMargin" icon={ faFacebookF } />
             <FontAwesomeIcon icon={ faInstagram } />

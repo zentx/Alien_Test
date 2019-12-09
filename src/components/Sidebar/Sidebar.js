@@ -27,24 +27,9 @@ class Sidebar extends Component {
     
     return (
         
-    <Div active={ this.state.active }>
-        <Menu onStateChange={ this.handleBar } customBurgerIcon={ icon } width={'400px'} 
+    <Div active={ this.props.active }>
+        <Menu onStateChange={  this.props.open } customBurgerIcon={ icon } width={'400px'} 
               customCrossIcon={ false } noOverlay right {...this.props}>
-            <a className="menu-item" href="/">
-                Home
-            </a>
-
-            <a className="menu-item" href="/">
-                Burgers
-            </a>
-
-            <a className="menu-item" href="/">
-                Pizzas
-            </a>
-
-            <a className="menu-item" href="/">
-                Desserts
-            </a>
         </Menu>
     </Div>    
     )
