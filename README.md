@@ -13,6 +13,7 @@ RESULTADOS:
   -	No se pudo completar diseño responsivo
   
   Como correr el proyecto:
+  
     -	Instalar npm 
     
     -	Entrar a consola y redirigirse a la carpeta donde se encuentra el archivo
@@ -23,6 +24,7 @@ RESULTADOS:
     
 
 DATOS:
+
 url donde se desplego el proyecto: https://coaster-test.herokuapp.com/
 
 Framework utilizado: React
