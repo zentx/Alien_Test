@@ -42,7 +42,6 @@ class App extends Component {
   }
 
   menuOpen(state){
-
     this.setState({ active: state.isOpen });
   }
 
@@ -58,7 +57,7 @@ class App extends Component {
             <Spring from={{filter: 'blur(0px)', marginTop: this.state.showBottom ? 626 :0, opacity: 1 }} to={{filter: this.state.playVideo ? 'blur(30px)' : 'blur(0px)', marginTop: this.state.showBottom ? -200 : 0, opacity: this.state.fadeMenu ? 0 : 1 }}> 
               {props => (
               <div style={props}>
-                <Sidebar active={ this.state.active } open={ (state) => this.menuOpen(state) } pageWrapId={"page-wrap"} outerContainerId={"App"}  />
+                <Sidebar check={ this.state.active } open={ (state) => this.menuOpen(state) } pageWrapId={"page-wrap"} outerContainerId={"App"}  />
                 <div id="page-wrap">
                   <Background openMenu={ this.state.active } show={ this.showBottom } play={ this.playVideo } change={ this.changeMenu }/>
                 </div>

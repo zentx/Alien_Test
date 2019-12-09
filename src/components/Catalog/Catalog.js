@@ -58,7 +58,7 @@ class Catalog extends Component {
                        <Spring config={{duration: 500}} from={{ top: 626}} to={{ top:  0}}>
                                 {props => (
                                         <StyledCaseless style={props}>
-                                            <Spring config={{delay: 1000}} from={{ width: 683, left: 341.5, top: 243, height: 186}} to={{ width:  1366, left: 0, top: 0, height: 386}}>
+                                            <Spring config={{delay: 1000}} from={{ width: '50%', left: 341.5, top: 243, height: 186}} to={{ width:  '100%', left: 0, top: 0, height: 386}}>
                                                 {props => (  
                                                     <img className="first-weapon" style={props} src={ weapon_img } /> 
                                                 )} 

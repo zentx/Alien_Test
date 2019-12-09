@@ -30,7 +30,7 @@ export const StyledBackground = styled.div`
     div.link-group {
         position: fixed;
         top: 334px;
-        left: 1090px;
+        left: 79.8%;
         width: 200px;
         height: 45px;
         opacity: 0.7;
@@ -50,7 +50,7 @@ export const StyledBackground = styled.div`
     
     div.description {
         position: fixed;
-        top: 520px;
+        top: 83%;
         left: 91px;
         width: 335px;
         height: 21px;
@@ -63,7 +63,7 @@ export const StyledBackground = styled.div`
 
     div.desc-text {
         position: fixed;
-        top: 550px;
+        top: 87.9%;
         left: 91px;
         width: 335px;
         height: 21px;
@@ -108,7 +108,7 @@ export const StyledBackground = styled.div`
 
     div.social-net {
         position: fixed;
-        top: 522px;
+        top: 83.4%;
         left: 1222px;
         color:  #FFFFFF;
         font-size: 16px;
@@ -132,7 +132,7 @@ export const StyledBackground = styled.div`
     div.more-info {
         tex-align: right;
         position: fixed;
-        top: 572px;
+        top: 91.37%;
         left: 1190px;
         color:  #FFFFFF;
         font-size: 12px;
@@ -145,11 +145,20 @@ export const StyledBackground = styled.div`
         margin-left: 10px;
     }
 
+    @media only screen and (max-width: 1322px) {
+        div.link-group {
+            left: 29.8%;
+        }
+    }
+
     @media only screen and (max-width: 700px) {
         img {
             right: 1.32%;
             width: 87.75px;
         }
+
+        
+
       }
 
       @media only screen and (max-width: 600px) {

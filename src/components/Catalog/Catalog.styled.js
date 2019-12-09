@@ -117,8 +117,8 @@ export const StyledCaseless = styled.div`
     position: fixed;
     top: 626px;
     background-color: #000000;
-    height: 626px;
-    width: 1366px;
+    height: 100vh;
+    width: 100%;
     color: #FFFFFF;
 
     img.first-weapon {
@@ -157,6 +157,13 @@ export const StyledCaseless = styled.div`
         letter-spacing: 0.34px;
         color: #E9E9E9;
         opacity: 0.8;
+    }
+
+    @media only screen and (max-width: 800px) {
+        img.weyland-logo {
+            width: 6.71%;
+
+        }
     }
 
 `

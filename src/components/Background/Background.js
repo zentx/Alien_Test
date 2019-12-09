@@ -31,7 +31,7 @@ class Background extends Component {
             </div>
         </div>
         
-          <Spring from={{ left: 1090 }} to={{ left: this.props.openMenu ? 1470 : 1090 }}>
+          <Spring from={{ left: '79.8%' }} to={{ left: this.props.openMenu ? '108%' : '79.8%' }}>
           {props => (
               <div style={props} className="link-group">
                 <div><a><b>HOME</b></a></div> 
