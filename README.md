@@ -25,23 +25,14 @@ RESULTADOS:
 
 DATOS:
 
-url donde se desplego el proyecto: https://coaster-test.herokuapp.com/
-
-Framework utilizado: React
-
-Versión React: 16.12.0
-
-
-Dependencias utilizadas: 
-
-React-burger-menu: 2.6.13
-
-React-spring: 8.0.27
-
-React-youtube: 7.9.0
-
-Styled-components: 4.4.1
-
-Fortawesome: 1.2.25
+  -	url donde se desplego el proyecto: https://coaster-test.herokuapp.com/
+  -	Framework utilizado: React
+  -	Versión React: 16.12.0
+  -	Dependencias utilizadas: 
+  -	React-burger-menu: 2.6.13
+  -	React-spring: 8.0.27
+  -	React-youtube: 7.9.0
+  -	Styled-components: 4.4.1
+  -	Fortawesome: 1.2.25
 
 
