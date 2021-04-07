@@ -1,16 +1,5 @@
 # Coaster_Test
-Prueba de Desarrollo de una interfaz Front end
-
-RESULTADOS:
-
-  -	Vista 01_Landing completada
-  -	Menu 01_Landing-1 completado a excepción de la transición del botón “More info”
-  -	Menu 01_Landing_menu_trans01 completado a excepción de la transición 01_landing_menu_trans03
-  -	PlayVideo finalizado
-  -	02_Weapons vista completada
-  -	02_Weapons transición completada
-  -	02_Weapons_item02 no se pudo completar
-  -	No se pudo completar diseño responsivo
+Prueba de Desarrollo de una interfaz Front end inspirada en "Alien"
   
   Como correr el proyecto:
   
@@ -33,6 +22,4 @@ DATOS:
   -	React-spring: 8.0.27
   -	React-youtube: 7.9.0
   -	Styled-components: 4.4.1
-  -	Fortawesome: 1.2.25
-
-
+  -	Fontawesome: 1.2.25
